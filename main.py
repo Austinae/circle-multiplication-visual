@@ -37,6 +37,4 @@ def mod_mult_image(mult, mod):
         circ_str = f'mod_{mod}_mult_{mult}'
         surface.write_to_png(f'complete_circle_{circ_str}.png')
 
-
-for i in range(1, 1000):
-    mod_mult_image(2, i)
+mod_mult_image(2, 1000)
